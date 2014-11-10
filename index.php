@@ -15,7 +15,6 @@ $num2 = 30;
 try{
 
     $result = ($num1 + $num2) / 2;
-
     echo "Resultado = ".$result;
 }catch (Exception $e){
     echo "Número inválido! Num1= ".$num1." Num2= ".$num2;
